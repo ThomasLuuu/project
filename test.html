@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="odometer.js"></script>
+     <link rel="stylesheet" href="https://github.hubspot.com/odometer/themes/odometer-theme-car.css" />
+    <style>
+    .odometer {
+      font-size: 40px;
+    }
+
+    </style>
+    <script>
+    window.odometerOptions = {
+      format: '(ddd).dd'
+     
+    };
+    </script>
+
+
+    </head>
+
+    <body>
+
+    
+    <div class="odometer">000</div>
+
+    <script>
+    var finalDigit = 274;
+      setTimeout(function(){
+        $('.odometer').html(finalDigit);
+      }, 1000);
+    </script>
+
+
+
+
+    </body>
+    </html>
