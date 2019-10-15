@@ -1,0 +1,42 @@
+.header{
+    background-image: 
+    linear-gradient(to right bottom, rgba($color-pimary-dark, .8),rgba($color-pimary-light, .8)),
+    url('../image/BackGround.jpg');
+    background-size: cover;
+    background-position: top;
+    //position: relative;
+    //height: 60vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    
+    
+        
+
+    &__text-box{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    &__logo
+    {
+        height: 110px;
+        overflow: hidden;
+    }
+
+    &__logo-box{
+        position: absolute;
+        top: 70px;
+        left: -10px;
+        color: $color-white;
+        display: block;
+        width: 150%;
+        height: 150%;
+        opacity: 0.3;
+    }
+}   

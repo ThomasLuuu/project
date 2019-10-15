@@ -1,0 +1,12 @@
+.bar-text{
+    font-size: 3.5gem;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: inline-block;
+    letter-spacing: .2rem;
+    cursor: pointer;
+
+    background-image:  linear-gradient(to right, $color-grey-light, $color-grey-dark);
+    color: transparent;
+    -webkit-background-clip: text;
+}

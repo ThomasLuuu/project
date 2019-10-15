@@ -1,0 +1,33 @@
+.section-about{
+    background-image: url('../image/python.jpg');
+    padding: 15rem 0;
+    margin-top: 0;
+    position: fixed;
+    background-size: cover;
+    background-position: top;
+    top:0;
+    left:0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.section-skills{
+    background-image: linear-gradient(to right bottom, rgba($color-pimary-light, .8),rgba($color-pimary-dark, .8)), url('../image/Background2.jpg');
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;    
+
+}
+
+.section-courses{
+    background-image: url('../image/selfimage4.jpg');
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
